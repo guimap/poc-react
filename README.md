@@ -2,7 +2,7 @@
 Poc de react
 
 # Modulos 
-- MR01
-- MR02
-- MR03
-- MR04
+- [x] MR01
+- [x] MR02
+- [x] MR03
+- [ ] MR04
