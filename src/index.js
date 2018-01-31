@@ -9,6 +9,12 @@
 //     document.querySelector('[data-js="app"]')
 // )
 
-var sum = require('./app')
+import Title from './app'
 
-console.log(sum(1,2))
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+ReactDOM.render(
+  <Title/>,
+  document.querySelector('[data-js="app"]')
+)

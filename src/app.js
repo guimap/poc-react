@@ -1,7 +1,10 @@
 'use strict'
+import React from 'react'
 
-function sum(val1, val2) {
-  return val1 + val2
-}
+var Title = React.createClass({
+  render: function () {
+    return <h1>Titulo 2</h1>
+  }
+})
 
-module.exports = sum
+export default Title

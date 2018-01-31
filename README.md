@@ -2,7 +2,13 @@
 Poc de react
 
 # Modulos 
+## Webpack
 - [x] MR01
 - [x] MR02
 - [x] MR03
-- [ ] MR04
+- [x] MR04
+- [x] MR05 
+- [x] MR06
+- [x] MR07
+- [x] MR08
+- [ ] MR09
