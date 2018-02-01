@@ -8,7 +8,7 @@ import { AppContainer } from 'react-hot-loader'
 const renderApp = (NextApp) => {
   return ReactDOM.render(
     <AppContainer>
-      <NextApp/>
+      <NextApp />
     </AppContainer>,
     document.querySelector('[data-js="app"]')
   )

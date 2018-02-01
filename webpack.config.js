@@ -21,12 +21,21 @@ module.exports = {
   },
   //  Modules
   module: {
-    loaders: [{
-      test: /\.js$/,
-      exclude: /node_modules/,
-      include: /src/,
-      loader: 'babel-loader'
-    }]
+    loaders: [
+      {
+        enforce: 'pre',
+        test: /\.js$/,
+        exclude: /node_modules/,
+        include: /src/,
+        loader: 'standard-loader'
+      },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        include: /src/,
+        loader: 'babel-loader'
+      }
+    ]
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin()
